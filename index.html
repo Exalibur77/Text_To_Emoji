@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/9a689a2858.js" crossorigin="anonymous"></script>  
+    <title>Text To Emoji</title>
+
+</head>
+<body>
+    
+    <div id="main">
+
+        <h1>Text <span><i class="fa-solid fa-arrow-right"></i></span> Emojis</h1>
+
+        <div id="endec-div">
+
+            <h3 id="enc-btn"> <span><i class="fa-solid fa-lock"></i></span> Encrypt Text</h3>
+            <h3 id="dec-btn"> <span><i class="fa-solid fa-lock-open"></i></span> Decrypt Emojis</h3>
+
+        </div>
+
+        <div id="encryption">
+
+            <div id="message">
+                <h5> 1. Type a message </h5>
+                <textarea rows="5" cols="33" style="color : grey" placeholder="Hello World or write some javascript code" id="text-message"></textarea>
+            </div>
+            
+            <div id="password">
+                <h5>2. Set a password</h5>
+                <input type="password" name="password" id="user-password" placeholder="E.g. 1234">
+
+            </div>  
+
+            <div id="encrypt-final">
+
+                <h5>3. Encrypt Message</h5>
+                <button id="encrypt-btn"> <span><i class="fa-solid fa-lock"></i></span> Encrypt Text </button>
+            </div>
+
+
+        </div>
+
+        <!-- <div id="decryption">
+
+            <h5> 1. Paste encrypted emojis </h5>
+            <textarea rows="5" cols="33" style="color : grey" placeholder="Paste encrypted emojis here" id="text-emojis"></textarea>
+            
+              
+            <h5>2. Type the password</h5>
+            
+            <input type="password" name="password" id="entered-password" placeholder="E.g. 1234">
+            
+            <h5>3. Decrypt Emojis</h5>
+
+            <button id="decrypt-btn"> <span><i class="fa-solid fa-lock-open"></i></span> Decrypt Emojis </button>
+
+        </div> -->
+
+
+    </div>
+
+
+</body>
+</html>
