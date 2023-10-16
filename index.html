@@ -24,12 +24,12 @@
 
         <div id="encryption">
 
-            <div id="message">
+            <div id="message-enc">
                 <h5> 1. Type a message </h5>
                 <textarea rows="5" cols="33" style="color : grey" placeholder="Hello World or write some javascript code" id="text-message"></textarea>
             </div>
             
-            <div id="password">
+            <div id="password-enc">
                 <h5>2. Set a password</h5>
                 <input type="password" name="password" id="user-password" placeholder="E.g. 1234">
 
@@ -44,25 +44,30 @@
 
         </div>
 
-        <!-- <div id="decryption">
+        <div id="decryption" style="display: none;">
 
-            <h5> 1. Paste encrypted emojis </h5>
-            <textarea rows="5" cols="33" style="color : grey" placeholder="Paste encrypted emojis here" id="text-emojis"></textarea>
+            <div id="message-dec">
+                <h5> 1. Paste encrypted emojis </h5>
+                <textarea rows="5" cols="33" style="color : grey" placeholder="Paste encrypted emojis here" id="text-emojis"></textarea>
+            </div>
             
+            <div id="password-dec">
+
+                <h5>2. Type the password</h5>
+                <input type="password" name="password" id="entered-password" placeholder="E.g. 1234">
+            </div>
               
-            <h5>2. Type the password</h5>
-            
-            <input type="password" name="password" id="entered-password" placeholder="E.g. 1234">
-            
-            <h5>3. Decrypt Emojis</h5>
+            <div id="decrypt-final">
+                <h5>3. Decrypt Emojis</h5>
+                <button id="decrypt-btn"> <span><i class="fa-solid fa-lock-open"></i></span> Decrypt Emojis </button>
+            </div>
 
-            <button id="decrypt-btn"> <span><i class="fa-solid fa-lock-open"></i></span> Decrypt Emojis </button>
-
-        </div> -->
+        </div>
 
 
     </div>
 
+    <script src="script.js"></script>
 
 </body>
 </html>

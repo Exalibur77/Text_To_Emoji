@@ -31,9 +31,9 @@ html , body{
     margin-bottom: 20px;
 }
 
-#main >h1>span{
+#main >h1 i{
     margin: 0px 10px;
-    transition: 0.3s ease ;
+    transition: 0.5s ease ;
 }
 
 #endec-div{
@@ -130,7 +130,63 @@ html , body{
     background-color: #1c1c1c;
     outline: none;
     cursor: pointer;
-    /* transition: 0.3s ease-out; */
+    transition: 0.3s ease-out;
+    /* max-height: 100px; */
+}
+
+
+#decryption{
+    width: 45%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: #7e7e7e;
+}
+
+
+#decryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: #1c1c1c;
+    outline: none;
+    /* max-height: 100px; */
+}
+
+#decryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: #1c1c1c;
+    outline: none;
+    /* max-height: 100px; */
+}
+
+#decrypt-btn{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: #1c1c1c;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-out;
     /* max-height: 100px; */
 }
 
